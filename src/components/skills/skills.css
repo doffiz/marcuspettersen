@@ -1,0 +1,62 @@
+.pf__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pf__skills-content h1 {
+    color: white;
+}
+
+.pf__skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1em;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+
+    
+}
+
+.pf__skills-title {
+    margin: 0 3rem; 
+    
+}
+
+.pf__skills-title h1 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pf__skills-title h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    ;
+}
+
+
+@media screen and (max-width: 650px) {
+    .pf__skills-box {
+        flex-direction: column;
+        margin: 0rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .pf__skills-box {
+        flex-direction: column;
+        margin: 0rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+  
+    }

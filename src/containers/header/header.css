@@ -1,0 +1,145 @@
+.pf__header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10rem;
+}
+
+.pf__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.pf__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.pf__header-content-image img {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 80px;
+    min-width: 80px;
+
+}
+
+.pf__header-content-image {
+    margin-left: 6rem;
+    
+}
+
+.pf__header-content-text h4 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    color: palevioletred;
+    margin-bottom: -15px;
+
+}
+
+.pf__header-content-text p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-top: -8px;
+    color: pink ;
+}
+
+.pf__header_cta-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+
+.pf__header_cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1rem;
+}
+
+.pf__header_cta-btn button {
+    background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0.1rem 0.1rem;
+    border-radius: 1rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 130px;
+
+}
+
+.pf__header_cta-box  h3 {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .pf__header {
+        flex-direction: column;
+    }
+
+    .pf__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pf__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 1rem;
+    }
+
+    .pf__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pf__header-content h4 {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 490px) {
+    .pf__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 1rem;
+    }
+
+    .pf__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+}
