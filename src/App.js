@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Header, Projects } from './containers'
+import { About, Header } from './containers'
 import { Navbar, Skills } from './components'
 import './App.css';
 const App = () => {
